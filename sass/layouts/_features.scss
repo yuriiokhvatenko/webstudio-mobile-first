@@ -1,0 +1,33 @@
+.features {
+    &__thumb {
+        margin-bottom: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+    }
+
+    &__item:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    &__tittle {
+        margin-bottom: 10px;
+
+        @include fonts(700, 14px, 1.14, 0.03em);
+        text-transform: uppercase;
+        color: $primaryTextColor;
+        text-align: center;
+    }
+
+    &__description {
+
+        @include fonts(400, 14px, 1.71, 0.03em);
+        color: $secondaryTextColor;
+    }
+
+}

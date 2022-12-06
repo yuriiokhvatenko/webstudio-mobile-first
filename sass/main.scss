@@ -6,6 +6,7 @@
 
 @import './generals/reset';
 @import './generals/container';
+@import './generals/sections';
 
 // Components
 
@@ -15,3 +16,5 @@
 // Layouts
 @import './layouts/header';
 @import './layouts/hero';
+@import './layouts/features';
+@import './layouts/team';

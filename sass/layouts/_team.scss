@@ -1,0 +1,21 @@
+.team.section {
+    background-color: #F5F4FA;
+}
+
+.team {
+    text-align: center;
+
+    &__tittle {
+        margin-bottom: 30px;
+
+        @include fonts(700, 28px, 1.18, 0.03em);
+        color: $primaryTextColor;
+    }
+
+    &__image {
+        margin-bottom: 30px;
+
+
+    }
+
+}
