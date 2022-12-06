@@ -1,11 +1,16 @@
 .header {
+    border: 1px solid #ECECEC;
+
     &__container {
     display: flex;
     align-items: center;
+    padding-right: 0;
     }
     .menu-burger {
+        padding: 10px 0;
+        width: 40px;
+
         background-color: transparent;
         border: none;
-        padding: 10px 0;
         }
 }
