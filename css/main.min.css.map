@@ -1,1 +1,1 @@
-{"version":3,"sources":["../sass/main.scss"],"names":[],"mappings":"AAAA,KACI,QAAA,CACA,SAAA","file":"main.min.css"}
+{"version":3,"sources":["../sass/generals/_reset.scss"],"names":[],"mappings":"AAEA,oBAOI,QAAA,CACA,SAAA,CAGJ,GACI,eAAA,CAGJ,EACI,oBAAA","file":"main.min.css"}
