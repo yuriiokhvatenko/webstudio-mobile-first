@@ -1,1 +1,13 @@
+// Utils
+@import './utils/mixins';
+@import './utils/variables';
+
+// Generals
+
 @import './generals/reset';
+@import './generals/container';
+
+// Components
+
+@import './components/logo';
+@import './components/header';

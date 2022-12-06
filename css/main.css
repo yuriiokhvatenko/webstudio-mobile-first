@@ -15,4 +15,47 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  padding-left: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.logo--blue {
+  color: #2196F3;
+}
+.logo--black {
+  color: #212121;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .menu-burger {
+  background-color: transparent;
+  border: none;
+  padding: 10px 0;
 }/*# sourceMappingURL=main.css.map */

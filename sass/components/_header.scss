@@ -1,0 +1,11 @@
+.header {
+    &__container {
+    display: flex;
+    align-items: center;
+    }
+    .menu-burger {
+        background-color: transparent;
+        border: none;
+        padding: 10px 0;
+        }
+}
