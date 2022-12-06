@@ -23,6 +23,7 @@ button {
 }
 
 .container {
+  font-family: "Roboto";
   width: 450px;
   margin: 0 auto;
   padding: 0 15px;
@@ -63,4 +64,22 @@ button {
   width: 40px;
   background-color: transparent;
   border: none;
+}
+.header .menu-burger:hover, .header .menu-burger:focus {
+  fill: #2196F3;
+}
+
+.hero {
+  padding: 118px 60px;
+  background-image: url(../img/hero/bg-sm.jpg);
+}
+.hero__tittle {
+  width: 360px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
