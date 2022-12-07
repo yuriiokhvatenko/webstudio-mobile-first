@@ -86,7 +86,10 @@
          <ul class="team__list">
           <div class="team__test">
             <li class="team__item">
-              <img src="./img/team/team-sm-1.jpg" alt="фото Ігор Дем'яненко" class="team__image image">
+              <picture>
+                <source media="(max-width:767px)" srcset="./img/team/team-sm-1.jpg 1x, ./img/team/team-sm-1@2x.jpg 2x" type="image/jpg">
+                <img src="./img/team/team-sm-1.jpg" alt="фото Ігор Дем'яненко" class="team__image image">
+              </picture>
               <p class="team__name">Ігор Дем'яненко</p>
               <p class="team__description">Product Designer</p>
             </li>
