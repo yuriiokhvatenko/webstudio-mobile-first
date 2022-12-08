@@ -1,0 +1,43 @@
+.clients {
+
+    &__tittle {
+        text-align: center;
+        margin-bottom: 30px;
+
+        @include fonts(700, 28px, 1.18, 0.03em);
+        color: $primaryTextColor;
+
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+
+        justify-content: start;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        // flex-basis: calc((100% - 30px) / 2);
+    }
+
+    &__item {
+        padding: 16px 52px;
+
+        display: block;
+
+        flex-basis: calc((100% - 30px) / 2);
+
+        fill: $iconNotActiveColor;
+
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+
+    }
+
+    &__item:hover,
+    &__item:focus {
+        fill: $accentColor;
+        border: 1px solid $accentColor;
+    }
+}
